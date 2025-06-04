@@ -1,12 +1,13 @@
 # Notebook for RAG with LangChain Docs
 
-This notebook is for me to learn and experiment with LangChain for creating a retrieval-based question-answering system. It includes the setup of necessary dependencies, environment variables, and the LangChain components for document retrieval and response generation.
+This repository contains a notebook for experimenting with LangChain to build a retrieval-augmented generation (RAG) system.  
+It covers environment setup, dependency installation, and key LangChain components for document retrieval and response generation.
 
 ## Setup
 
-To install the required dependencies, run the following commands:
+To install the required dependencies, run:
 
 ```bash
 pip install -U langchain langsmith langchainhub langchain_benchmarks
-pip install chromadb openai huggingface pandas langchain_experimental sentence_transformers pyarrow anthropic tiktoken
-```
+pip install chromadb openai huggingface pandas langchain_experimental sentence_transformers py
+````
